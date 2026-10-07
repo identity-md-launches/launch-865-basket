@@ -1,0 +1,13 @@
+{
+  "kind": "evm_contracts",
+  "contracts": [
+    {
+      "contract": "BaskVault",
+      "constructorArgs": [
+        "0x30B57ECf51D19ABcED7F6f70974e6fBb6f3b9Da3",
+        "0x5ed39AF86f2C00ad99913B5d727bD68f2A904B68"
+      ]
+    }
+  ],
+  "notes": "Basket Protocol index vault for Stock Tokens on Robinhood Chain (4663). Basket (BASK) is the vault share, with 18 decimals and zero initial supply. The constructor makes no external calls. The owner lists at least three assets and finalizes genesis; deposits open 72 hours later subject to the market gate. STOCK_FACTORY is fixed in source. No separate launch token, pool, proxy or upgrade authority."
+}
